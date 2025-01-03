@@ -1,0 +1,60 @@
+.root{
+    --howe-color: #404bbf;
+}
+
+.list{
+    list-style-type: none;
+}
+
+.header-link{
+    text-decoration: none;
+}
+
+.logo{
+    width: 115px; 
+    height: 24px;
+    position: absolute;
+    top: 24px; 
+    left: 156px; 
+}
+
+.nav .list {
+    display: flex;
+    width: 261px;
+    height: 24px;
+    position: absolute;
+    top: 24px;
+    left: 347px;
+    gap: 40px;
+    list-style: none;
+}
+
+.nav .list li a{
+    color: black;
+    font-family: roboto;
+}
+
+.nav .list li a:hover{
+    color:(var(--howe-color));
+}
+
+.address .list {
+    display: flex;
+    width: 261px;
+    height: 24px;
+    position: absolute;
+    top: 24px;
+    left: 940px;
+    gap: 40px;
+    list-style: none;
+}
+
+.header{
+    color:#FFFFFF;
+    border-bottom: 1px solid #E7E9FC;
+    top: 24px;
+}
+
+.container{
+    top: 24px;
+}
