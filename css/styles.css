@@ -35,7 +35,7 @@
 }
 
 .nav .list li a:hover{
-    color:(var(--howe-color));
+    color: #404bbf;
 }
 
 .address .list {
@@ -49,12 +49,170 @@
     list-style: none;
 }
 
-.header{
+.header .container{
     color:#FFFFFF;
     border-bottom: 1px solid #E7E9FC;
-    top: 24px;
+    width: 1440px;
+    height: 72px;
 }
 
-.container{
-    top: 24px;
+.nav{
+    height: 72px;
+}
+
+.nav .address{
+    height: 72px;
+}
+
+.footer .container{
+    width: auto;
+    height: 312px;
+    background-color: #2E2F42;
+}
+
+.footer .footer-icons{
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    width: 208px;
+    height: 40px;
+}
+
+.social{
+    margin-left: 540px;
+}
+
+.social .text{
+    color: #F4F4FD;
+}
+
+.footer-logo{
+    width: 264px;
+    height: 112px;
+    margin-left: 156px;
+}
+
+.footer-logo .text{
+    width: 264px;
+    height: 72px;
+    color: #F4F4FD;
+}
+
+.footer-logo .footer-logo-link{
+    width: 115px;
+    height: 24px;
+}
+
+.benefits .benefits-container{
+    margin-top: 120px;
+    left: 224px;
+}
+
+.benefits-list{
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+.benefits-list .text{
+    width: 264px;
+    height: 72px;
+    font-weight: 400;
+}
+
+.benefits-list .h-two{
+    font-weight: 500;
+    align-content: left;
+}
+
+.work .container{
+    width: 1128px;
+    height: 412px;
+    left: 156px;
+    align-items: center;
+}
+
+.wawd-htwo{
+    width: 323px;
+    height: 40px;
+    margin-left: 559px;
+    font-weight: 700;
+    size: 36px;
+    align-self: center;    
+}
+
+.wawd-list{
+    list-style: none;
+    display: flex;
+}
+
+.team .container{
+    width: 1440px;
+    height: 780;
+    background-color: #F4F4FD;
+    align-content: center;
+}
+
+.team-h2{
+    font-weight: 700;
+    size: 36px;
+    margin-left: 639px;
+}
+
+.member{
+    background-color: white;
+    height: 428px;
+    width: 264px;
+}
+
+.team-members{
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    margin-left: 156px;
+}
+
+.list-icon{
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+.desc-member{
+    width: 232px;
+    height: 104px;
+    gap: 8px;
+    align-content: center;
+}
+
+.customers .container{
+    width: 1128px;
+    height: 200px;
+    margin-top: 120px;
+    margin-left: 156px;
+}
+
+.customers-list{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    margin-left: 156px;
+    margin-top: 54px;
+    width: 1128;
+    height: 88px;
+}
+
+.customer{
+    width: 168px;
+    height: 88px;
+    border: 1px;
+    border-color: gray;
+}
+
+.customer-htwo{
+    width: 183px;
+    height: 40px;
+    margin-left: 629px;
+    font-weight: 700;
+    size: 36px;
 }
