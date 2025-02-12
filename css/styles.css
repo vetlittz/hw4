@@ -19,7 +19,6 @@
     width: 115px; 
     height: 24px;
     position: absolute;
-    top: 24px; 
     left: 156px; 
 }
 
@@ -28,7 +27,6 @@
     width: 261px;
     height: 24px;
     position: absolute;
-    top: 24px;
     left: 347px;
     gap: 40px;
     list-style: none;
@@ -48,7 +46,6 @@
     width: 261px;
     height: 24px;
     position: absolute;
-    top: 24px;
     left: 940px;
     gap: 40px;
     list-style: none;
@@ -59,6 +56,10 @@
     border-bottom: 1px solid #E7E9FC;
     width: 1440px;
     height: 72px;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .nav{
@@ -86,6 +87,40 @@
     height: 40px;
     padding: 0;
 }
+
+.service {
+    max-width: auto;
+    margin: 0 auto;
+}
+
+.service .service-img{
+    margin-left: 0 auto;
+    justify-content: center;
+    align-content: center;
+}
+
+.service .button {
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04rem;
+    background-color: #4d5ae5;
+    cursor: pointer;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.service .button:hover,
+.service .button:focus {
+    background-color: var(--howe-color);
+}
+
 
 .social{
     margin-left: 540px;
@@ -209,17 +244,16 @@
 
 .customers .container{
     width: auto;
-    height: 200px;
+    height: 300px;
     margin: 0 auto;
-    padding-top: 100px;
     align-content: center;
+    justify-content: center;
 }
 
 .customers-list{
     display: flex;
     list-style: none;
     gap: 24px;
-    padding-top: 54px;
     width: auto;
     height: 88px;
     padding: 0;
@@ -244,7 +278,10 @@
 }
 
 .portfolios{
-    max-width: 1440px;
+    max-width: auto;
+    margin: 0 auto;
+    justify-content: center;
+    align-content: center;
 }
 
 .portfolios .list-button {
@@ -259,16 +296,16 @@
 }
 
 .portfolios .port-list {
-    margin: 0;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
-    row-gap: 48px;
-    column-gap: 24px;
-    margin-left: 156px;
-    max-width: 1200px;
+    gap: 40px 40px;
     list-style-type: none;
-    margin-bottom: 120px;
+    padding-bottom: 120px;  
+    margin: 0 auto;
+    justify-content: center;
+    align-content: center;
+    max-width: 1200px;
 }
 
 .cont-port {
